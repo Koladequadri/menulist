@@ -65,7 +65,10 @@ nav button:hover {
 .add-cart:hover {
     background: darkorange;
 }
-#cart-items div
+#cart-items div{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
 #cart-sidebar {
     position: fixed;
     top: 0;
