@@ -34,7 +34,6 @@ closeCart.addEventListener("click", () => {
     cartSidebar.classList.remove("open");
 });
 
-// ADD TO CART BUTTONS
 const addCartButtons = document.querySelectorAll(".add-cart");
 
 addCartButtons.forEach(btn => {
@@ -48,7 +47,6 @@ addCartButtons.forEach(btn => {
     });
 });
 
-// UPDATE CART DISPLAY
 function updateCart() {
     cartItemsDiv.innerHTML = "";
 
@@ -62,7 +60,7 @@ function updateCart() {
 
         div.innerHTML = `
             <strong>${item.name}</strong><br>
-            $${item.price.toFixed(2)}
+            #${item.price.toFixed(2)}
             <button class="delete-btn" data-index="${index}">Delete</button>
         `;
 
@@ -72,7 +70,6 @@ function updateCart() {
     cartCount.textContent = cart.length;
     cartTotal.textContent = total.toFixed(2);
 
-    // Activate delete buttons
     const deleteButtons = document.querySelectorAll(".delete-btn");
     deleteButtons.forEach(btn => {
         btn.addEventListener("click", () => {
