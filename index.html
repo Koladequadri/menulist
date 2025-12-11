@@ -11,12 +11,15 @@
     <h1>Menu</h1>
     <nav>
         <ul>
-            <li><button data-filter="all">All</button></li>
+            <li><button class="active" data-filter="all">All</button></li>
             <li><button data-filter="breakfast">Breakfast</button></li>
             <li><button data-filter="lunch">Lunch</button></li>
             <li><button data-filter="dinner">Dinner</button></li>
         </ul>
     </nav>
+    <div id="cart-icon">
+        cart: <span id="cart-count">0</span> item
+    </div>
 </header>
 
 <section id="menu-container">

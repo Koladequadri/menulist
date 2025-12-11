@@ -10,8 +10,18 @@ header {
     padding: 20px 0;
     background: #222;
     color: #fff;
+    position: relative;
 }
-
+#cart-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: orange;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
 nav ul {
     list-style: none;
     padding: 0;
