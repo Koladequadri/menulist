@@ -99,3 +99,13 @@ nav button:hover {
     font-size: 18px;
     color: green;
 }
+.add-cart {
+    margin-top: 12px;
+    background: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
