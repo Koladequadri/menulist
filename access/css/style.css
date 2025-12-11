@@ -12,16 +12,6 @@ header {
     color: #fff;
     position: relative;
 }
-#cart-icon {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: orange;
-    padding: 8px 12px;
-    border-radius: 6px;
-    font-weight: bold;
-    cursor: pointer;
-}
 nav ul {
     list-style: none;
     padding: 0;
@@ -43,6 +33,34 @@ nav button {
 nav button:hover {
     background: orange;
     color: #fff;
+}
+#cart-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: orange;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#cart-items div{
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+#cart-total {
+    font-weight: bold;
+    margin-top: 20px;
+}
+#close-cart {
+    margin-top: 20px;
+    width: 100px;
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 #menu-container {
     max-width: 1200px;
