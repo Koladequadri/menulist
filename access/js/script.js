@@ -16,3 +16,6 @@ buttons.forEach(btn => {
         });
     });
 });
+let cart = [];
+
+const cartIcon = document.grtElementById("cart-icon");
