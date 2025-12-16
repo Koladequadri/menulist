@@ -129,7 +129,7 @@ nav button:hover {
 .add-cart {
     margin-top: 12px;
     background: orange;
-    color: #fff;
+    color: #333;
     border: none;
     padding: 10px 16px;
     border-radius: 8px;
@@ -138,7 +138,7 @@ nav button:hover {
 }
 .delete-btn {
     background: red;
-    color: white;
+    color: #333;
     border: none;
     padding: 6px 10px;
     border-radius: 5px;
@@ -148,4 +148,12 @@ nav button:hover {
 
 .delete-btn:hover {
     background: darkred;
+}
+.container-footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
