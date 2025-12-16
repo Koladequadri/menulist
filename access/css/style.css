@@ -39,6 +39,7 @@ nav button:hover {
     top: 20px;
     right: 20px;
     background: orange;
+    color: #333;
     padding: 8px 12px;
     border-radius: 6px;
     font-weight: bold;
